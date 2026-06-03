@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <style>
+        body{
+            background-color:#eee8d5;
+            display: flex;
+        }
+        div{
+            background-color: #fdf6e3;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            padding: 15px;
+            border: 1px solid rgb(157, 156, 156);
+            border-radius: 5px;
+        }
+        header{
+            text-align: center;
+        }
+        .Text{
+            border: 1px solid rgb(158, 155, 155);
+            border-radius: 2px;
+            background-color: #fdf8eb;
+        }
+        form{
+            margin: 20px;
+        }
+        td{
+            text-align: center;
+            border: 2px solid rgb(103, 103, 103);
+        }
+        table{
+            border: 2px solid rgb(103, 103, 103);
+            padding: 10px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        thead{
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+          <header><h1>Users Control</h1></header>
+    <form>
+        <input class="Text" type="text" placeholder="Enter Name" required>
+        <input class="Text" type="text" placeholder="Enter Age" required>
+        <input class="Text" type="text" placeholder="Enter City" required>
+        <input type="button" value="Add" onclick="add_()">
+    </form>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Edit</th>
+            <th>Delet</th>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+  <script src="toDo.js"></script> 
+</body>
+</html>
