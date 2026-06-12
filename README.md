@@ -1,7 +1,6 @@
 # Users Control (Simple TODO App)
 
 A lightweight, interactive, and responsive CRUD application built purely with **Vanilla JavaScript**, **HTML5**, and **CSS3**. This project demonstrates dynamic DOM manipulation, event handling, and state management without relying on any external frameworks.
-https://eyad-makboul.github.io/simple_TODO_js/
 🔗 **[Live Demo](https://eyad-makboul.github.io/simple_TODO_js/)**
 
 ## 🚀 Features
